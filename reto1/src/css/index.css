@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.principal{
+  display: flex;
+  justify-content: center;
+
+}
+.mesa{
+  display: flex;
+  justify-content: center;
+  gap:50px 50px;
+  flex-direction: column; 
+  background-color: rgb(255, 184, 202);
+  align-items: center;
+  margin-top: 90px;
+  height: 60vh;
+  width: 50vw;
+
+}
+
+.container-mantel{
+  display: flex;
+  gap: 40px 40px;
+}
+.mantel{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  background-color: purple;
+  height: 200px;
+  width: 350px;
+}
+.plato{
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%;
+  background: #ffffff;
+  
+}
+
+.cubierto{
+  width: 40px;
+  height: 120px;
+  background-color: gray ;
+}
+
+
+.centro--mesa{
+  display: flex;
+	align-items: center;
+	justify-content: center;
+  flex-direction: column;
+  width: 120px;
+  height: 120px; 
+  border-radius: 50%;
+  background: #ff4848;
+}
+.centro--mesa_item100{
+  display: flex;
+	align-items: center;
+	justify-content: space-around;
+  width: 100%;
+}
+.centro--mesa_item70{
+  display: flex;
+	align-items: center;
+	justify-content: space-around;
+  width: 70%;
+}
+
+
+
+.flor{
+  width: 40px;
+  height: 40px; 
+  border-radius: 50%;
+  background: yellow;
+}
